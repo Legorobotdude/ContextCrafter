@@ -400,63 +400,6 @@ export const taskTemplates: TaskTemplate[] = [
       },
     ],
   },
-  {
-    id: 'business',
-    title: 'Business & Strategy',
-    description: 'Create prompts for business planning, strategy, and professional tasks',
-    icon: '💼',
-    questions: [
-      {
-        id: 'business_type',
-        type: 'select',
-        label: 'What type of business activity?',
-        required: true,
-        options: ['Business Plan', 'Marketing Strategy', 'Financial Analysis', 'Operations Planning', 'HR Strategy', 'Product Development', 'Market Research', 'Competitive Analysis'],
-      },
-      {
-        id: 'company_stage',
-        type: 'select',
-        label: 'What stage is your company in?',
-        required: true,
-        options: ['Startup/Idea stage', 'Early stage', 'Growth stage', 'Mature/Established', 'Expansion', 'Turnaround', 'Not applicable'],
-      },
-      {
-        id: 'industry',
-        type: 'text',
-        label: 'What industry or sector?',
-        placeholder: 'e.g., Technology, Healthcare, Retail, Manufacturing, Services',
-        required: true,
-      },
-      {
-        id: 'target_market',
-        type: 'text',
-        label: 'Who is your target market?',
-        placeholder: 'Describe your ideal customers or market segment...',
-        required: false,
-      },
-      {
-        id: 'goals',
-        type: 'textarea',
-        label: 'What are your main business goals?',
-        placeholder: 'Describe your primary objectives and desired outcomes...',
-        required: true,
-      },
-      {
-        id: 'challenges',
-        type: 'multiselect',
-        label: 'What are your main challenges?',
-        required: false,
-        options: ['Funding/Capital', 'Market competition', 'Customer acquisition', 'Product development', 'Team building', 'Operational efficiency', 'Regulatory compliance', 'Technology adoption'],
-      },
-      {
-        id: 'timeline',
-        type: 'select',
-        label: 'What is your planning timeline?',
-        required: false,
-        options: ['Immediate (1-3 months)', 'Short-term (3-12 months)', 'Medium-term (1-2 years)', 'Long-term (2+ years)', 'Strategic planning (3-5 years)'],
-      },
-    ],
-  },
 ];
 
 export const getTemplateById = (id: string): TaskTemplate | undefined => {

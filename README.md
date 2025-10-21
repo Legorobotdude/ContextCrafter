@@ -4,7 +4,7 @@ Transform your ideas into powerful prompts with our intelligent questionnaire sy
 
 ## Features
 
-- **8 Pre-built Templates**: Writing, Coding, Data Analysis, Brainstorming, Research, Learning, Creative Projects, and Business tasks
+- **7 Pre-built Templates**: Writing, Coding, Data Analysis, Brainstorming, Research, Learning, and Creative Projects
 - **Smart Question Flow**: Dynamic questionnaires that adapt based on your selected task type
 - **Progress Tracking**: Real-time completeness indicator with 70% threshold requirement
 - **Dual Output Formats**: Choose between structured (bullet points) and conversational (paragraph) prompt styles
@@ -67,11 +67,10 @@ npm run dev
 5. **Research & Information Gathering** - Literature reviews, market research
 6. **Learning & Education** - Educational content, skill development
 7. **Creative Projects** - Art, design, music, creative writing
-8. **Business & Strategy** - Business planning, strategy, professional tasks
 
 ## How It Works
 
-1. **Select Task Type**: Choose from 8 pre-built templates on the homepage
+1. **Select Task Type**: Choose from 7 pre-built templates on the homepage
 2. **Answer Questions**: Complete the dynamic questionnaire (5-10 questions per template)
 3. **Track Progress**: Monitor your completion percentage with the visual indicator
 4. **Generate Prompt**: Create your prompt once you reach 70% completion
