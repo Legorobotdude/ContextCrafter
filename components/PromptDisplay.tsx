@@ -111,3 +111,5 @@ export default function PromptDisplay({ prompt, className = '' }: PromptDisplayP
     </div>
   );
 }
+
+

@@ -37,3 +37,5 @@ export interface GeneratedPrompt {
 }
 
 export type PromptStyle = 'structured' | 'conversational';
+
+

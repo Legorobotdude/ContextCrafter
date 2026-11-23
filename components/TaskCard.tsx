@@ -43,3 +43,5 @@ export default function TaskCard({ template }: TaskCardProps) {
     </Link>
   );
 }
+
+
